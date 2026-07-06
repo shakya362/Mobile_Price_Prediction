@@ -1,2 +1,2 @@
 # Mobile_Price_Prediction
-ML pipeline that predicts mobile phone prices from device specs (RAM, storage, camera, battery, brand) using Random Forest, Decision Tree &amp; Linear Regression .
+A machine learning project that analyzes 541 Flipkart mobile phone listings to identify the specs that most influence price — and builds a predictive model to estimate it. Covers EDA, feature engineering (brand/processor extraction, camera MP parsing), label encoding, standardization/normalization, and trains Linear Regression, Decision Tree, and Random Forest models. Random Forest achieves R² ≈ 0.88 (MAE ≈ ₹1,598), with Front Camera MP, Brand, Battery, Memory, and RAM emerging as the top price drivers.
